@@ -1,0 +1,102 @@
+[0.000][INFO]:      ChromeDriver 23.0.1240.0 C:\Users\Andrei\Downloads\chromedriver.exe
+[0.506][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.507][INFO]:      Using named testing interface
+[0.759][INFO]:      Connected to Chrome successfully. Version: 28.0.1500.72
+[0.765][FINE]:      Command received (/session/377563564d1243bd69a007e247ada3ef)
+[0.766][FINE]:      Command finished (/session/377563564d1243bd69a007e247ada3ef) with response {
+   "sessionId": "377563564d1243bd69a007e247ada3ef",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "28.0.1500.72",
+      "webStorageEnabled": true
+   }
+}
+
+[0.875][FINE]:      Command received (/session/377563564d1243bd69a007e247ada3ef/window/current/maximize) with params {
+
+}
+
+[0.876][FINER]:     Waiting for all views to stop loading...
+[0.876][FINER]:     Done waiting for all views to stop loading
+[0.880][FINER]:     Waiting for all views to stop loading...
+[0.909][FINER]:     Done waiting for all views to stop loading
+[0.909][FINE]:      Command finished (/session/377563564d1243bd69a007e247ada3ef/window/current/maximize) with response {
+   "sessionId": "377563564d1243bd69a007e247ada3ef",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[0.918][FINE]:      Command received (/session/377563564d1243bd69a007e247ada3ef/cookie)
+[0.918][FINER]:     Waiting for all views to stop loading...
+[0.918][FINER]:     Done waiting for all views to stop loading
+[1.019][FINER]:     Waiting for all views to stop loading...
+[1.019][FINER]:     Done waiting for all views to stop loading
+[1.019][FINE]:      Command finished (/session/377563564d1243bd69a007e247ada3ef/cookie) with response {
+   "sessionId": "377563564d1243bd69a007e247ada3ef",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.029][FINE]:      Command received (/session/377563564d1243bd69a007e247ada3ef/url) with params {
+   "url": "http://www.trademe.co.nz"
+}
+
+[1.029][FINER]:     Waiting for all views to stop loading...
+[1.029][FINER]:     Done waiting for all views to stop loading
+[3.484][FINER]:     Waiting for all views to stop loading...
+[3.486][FINER]:     Done waiting for all views to stop loading
+[3.486][FINE]:      Command finished (/session/377563564d1243bd69a007e247ada3ef/url) with response {
+   "sessionId": "377563564d1243bd69a007e247ada3ef",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.490][FINE]:      Command received (/session/377563564d1243bd69a007e247ada3ef/url)
+[3.490][FINER]:     Waiting for all views to stop loading...
+[3.490][FINER]:     Done waiting for all views to stop loading
+[3.491][FINER]:     Waiting for all views to stop loading...
+[3.492][FINER]:     Done waiting for all views to stop loading
+[3.492][FINE]:      Command finished (/session/377563564d1243bd69a007e247ada3ef/url) with response {
+   "sessionId": "377563564d1243bd69a007e247ada3ef",
+   "status": 0,
+   "value": "http://www.trademe.co.nz/"
+}
+
+[3.527][FINE]:      Command received (/session/377563564d1243bd69a007e247ada3ef)
+[13.582][WARNING]:  Chrome still running, terminating...
+[13.582][INFO]:     Chrome shutdown
