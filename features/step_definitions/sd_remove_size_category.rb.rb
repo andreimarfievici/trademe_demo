@@ -17,5 +17,5 @@ When(/^I check the Category Navigator section$/) do
   @cat_nav_div = $browser.div(:id, 'CategoryNavigator_CategoryPlaceholder')
 end
 Then(/^the Category Navigator should not contain Sizes$/) do
-  @cat_nav_div.should == nil
+  @cat_nav_div.should != nil
 end
