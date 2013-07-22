@@ -3,8 +3,8 @@ require 'watir-webdriver'
 require 'rspec'
 require 'watir-webdriver/wait'
 
-ENV['env'] = 'ff'
-ENV['url'] = 'http://www.trademe.co.nz'
+#ENV['env'] = 'ff'
+#ENV['url'] = 'http://www.trademe.co.nz'
 case ENV['env'].downcase
   when 'chrome', 'chr'
     browser = Watir::Browser.new :chrome
